@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0181AC2D1DAE82BD0032DD90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0181AC2C1DAE82BD0032DD90 /* AppDelegate.swift */; };
+		0181AC2F1DAE82BD0032DD90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0181AC2E1DAE82BD0032DD90 /* ViewController.swift */; };
+		0181AC321DAE82BD0032DD90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0181AC301DAE82BD0032DD90 /* Main.storyboard */; };
+		0181AC341DAE82BD0032DD90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0181AC331DAE82BD0032DD90 /* Assets.xcassets */; };
+		0181AC371DAE82BD0032DD90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0181AC351DAE82BD0032DD90 /* LaunchScreen.storyboard */; };
+		0181AC421DAE82BD0032DD90 /* Auto_Layout_IBS_Reading_PracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0181AC411DAE82BD0032DD90 /* Auto_Layout_IBS_Reading_PracticeTests.swift */; };
+		0181AC4D1DAE82BD0032DD90 /* Auto_Layout_IBS_Reading_PracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0181AC4C1DAE82BD0032DD90 /* Auto_Layout_IBS_Reading_PracticeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0181AC3E1DAE82BD0032DD90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0181AC211DAE82BD0032DD90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0181AC281DAE82BD0032DD90;
+			remoteInfo = "Auto Layout IBS Reading Practice";
+		};
+		0181AC491DAE82BD0032DD90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0181AC211DAE82BD0032DD90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0181AC281DAE82BD0032DD90;
+			remoteInfo = "Auto Layout IBS Reading Practice";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0181AC291DAE82BD0032DD90 /* Auto Layout IBS Reading Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Auto Layout IBS Reading Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0181AC2C1DAE82BD0032DD90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0181AC2E1DAE82BD0032DD90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0181AC311DAE82BD0032DD90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0181AC331DAE82BD0032DD90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0181AC361DAE82BD0032DD90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0181AC381DAE82BD0032DD90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0181AC3D1DAE82BD0032DD90 /* Auto Layout IBS Reading PracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Auto Layout IBS Reading PracticeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0181AC411DAE82BD0032DD90 /* Auto_Layout_IBS_Reading_PracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auto_Layout_IBS_Reading_PracticeTests.swift; sourceTree = "<group>"; };
+		0181AC431DAE82BD0032DD90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0181AC481DAE82BD0032DD90 /* Auto Layout IBS Reading PracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Auto Layout IBS Reading PracticeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0181AC4C1DAE82BD0032DD90 /* Auto_Layout_IBS_Reading_PracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auto_Layout_IBS_Reading_PracticeUITests.swift; sourceTree = "<group>"; };
+		0181AC4E1DAE82BD0032DD90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0181AC261DAE82BD0032DD90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0181AC3A1DAE82BD0032DD90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0181AC451DAE82BD0032DD90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0181AC201DAE82BD0032DD90 = {
+			isa = PBXGroup;
+			children = (
+				0181AC2B1DAE82BD0032DD90 /* Auto Layout IBS Reading Practice */,
+				0181AC401DAE82BD0032DD90 /* Auto Layout IBS Reading PracticeTests */,
+				0181AC4B1DAE82BD0032DD90 /* Auto Layout IBS Reading PracticeUITests */,
+				0181AC2A1DAE82BD0032DD90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0181AC2A1DAE82BD0032DD90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0181AC291DAE82BD0032DD90 /* Auto Layout IBS Reading Practice.app */,
+				0181AC3D1DAE82BD0032DD90 /* Auto Layout IBS Reading PracticeTests.xctest */,
+				0181AC481DAE82BD0032DD90 /* Auto Layout IBS Reading PracticeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0181AC2B1DAE82BD0032DD90 /* Auto Layout IBS Reading Practice */ = {
+			isa = PBXGroup;
+			children = (
+				0181AC2C1DAE82BD0032DD90 /* AppDelegate.swift */,
+				0181AC2E1DAE82BD0032DD90 /* ViewController.swift */,
+				0181AC301DAE82BD0032DD90 /* Main.storyboard */,
+				0181AC331DAE82BD0032DD90 /* Assets.xcassets */,
+				0181AC351DAE82BD0032DD90 /* LaunchScreen.storyboard */,
+				0181AC381DAE82BD0032DD90 /* Info.plist */,
+			);
+			path = "Auto Layout IBS Reading Practice";
+			sourceTree = "<group>";
+		};
+		0181AC401DAE82BD0032DD90 /* Auto Layout IBS Reading PracticeTests */ = {
+			isa = PBXGroup;
+			children = (
+				0181AC411DAE82BD0032DD90 /* Auto_Layout_IBS_Reading_PracticeTests.swift */,
+				0181AC431DAE82BD0032DD90 /* Info.plist */,
+			);
+			path = "Auto Layout IBS Reading PracticeTests";
+			sourceTree = "<group>";
+		};
+		0181AC4B1DAE82BD0032DD90 /* Auto Layout IBS Reading PracticeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0181AC4C1DAE82BD0032DD90 /* Auto_Layout_IBS_Reading_PracticeUITests.swift */,
+				0181AC4E1DAE82BD0032DD90 /* Info.plist */,
+			);
+			path = "Auto Layout IBS Reading PracticeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0181AC281DAE82BD0032DD90 /* Auto Layout IBS Reading Practice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0181AC511DAE82BD0032DD90 /* Build configuration list for PBXNativeTarget "Auto Layout IBS Reading Practice" */;
+			buildPhases = (
+				0181AC251DAE82BD0032DD90 /* Sources */,
+				0181AC261DAE82BD0032DD90 /* Frameworks */,
+				0181AC271DAE82BD0032DD90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Auto Layout IBS Reading Practice";
+			productName = "Auto Layout IBS Reading Practice";
+			productReference = 0181AC291DAE82BD0032DD90 /* Auto Layout IBS Reading Practice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0181AC3C1DAE82BD0032DD90 /* Auto Layout IBS Reading PracticeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0181AC541DAE82BD0032DD90 /* Build configuration list for PBXNativeTarget "Auto Layout IBS Reading PracticeTests" */;
+			buildPhases = (
+				0181AC391DAE82BD0032DD90 /* Sources */,
+				0181AC3A1DAE82BD0032DD90 /* Frameworks */,
+				0181AC3B1DAE82BD0032DD90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0181AC3F1DAE82BD0032DD90 /* PBXTargetDependency */,
+			);
+			name = "Auto Layout IBS Reading PracticeTests";
+			productName = "Auto Layout IBS Reading PracticeTests";
+			productReference = 0181AC3D1DAE82BD0032DD90 /* Auto Layout IBS Reading PracticeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0181AC471DAE82BD0032DD90 /* Auto Layout IBS Reading PracticeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0181AC571DAE82BD0032DD90 /* Build configuration list for PBXNativeTarget "Auto Layout IBS Reading PracticeUITests" */;
+			buildPhases = (
+				0181AC441DAE82BD0032DD90 /* Sources */,
+				0181AC451DAE82BD0032DD90 /* Frameworks */,
+				0181AC461DAE82BD0032DD90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0181AC4A1DAE82BD0032DD90 /* PBXTargetDependency */,
+			);
+			name = "Auto Layout IBS Reading PracticeUITests";
+			productName = "Auto Layout IBS Reading PracticeUITests";
+			productReference = 0181AC481DAE82BD0032DD90 /* Auto Layout IBS Reading PracticeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0181AC211DAE82BD0032DD90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Joanna Tzu-Hsuan Huang";
+				TargetAttributes = {
+					0181AC281DAE82BD0032DD90 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					0181AC3C1DAE82BD0032DD90 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0181AC281DAE82BD0032DD90;
+					};
+					0181AC471DAE82BD0032DD90 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0181AC281DAE82BD0032DD90;
+					};
+				};
+			};
+			buildConfigurationList = 0181AC241DAE82BD0032DD90 /* Build configuration list for PBXProject "Auto Layout IBS Reading Practice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0181AC201DAE82BD0032DD90;
+			productRefGroup = 0181AC2A1DAE82BD0032DD90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0181AC281DAE82BD0032DD90 /* Auto Layout IBS Reading Practice */,
+				0181AC3C1DAE82BD0032DD90 /* Auto Layout IBS Reading PracticeTests */,
+				0181AC471DAE82BD0032DD90 /* Auto Layout IBS Reading PracticeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0181AC271DAE82BD0032DD90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0181AC371DAE82BD0032DD90 /* LaunchScreen.storyboard in Resources */,
+				0181AC341DAE82BD0032DD90 /* Assets.xcassets in Resources */,
+				0181AC321DAE82BD0032DD90 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0181AC3B1DAE82BD0032DD90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0181AC461DAE82BD0032DD90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0181AC251DAE82BD0032DD90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0181AC2F1DAE82BD0032DD90 /* ViewController.swift in Sources */,
+				0181AC2D1DAE82BD0032DD90 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0181AC391DAE82BD0032DD90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0181AC421DAE82BD0032DD90 /* Auto_Layout_IBS_Reading_PracticeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0181AC441DAE82BD0032DD90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0181AC4D1DAE82BD0032DD90 /* Auto_Layout_IBS_Reading_PracticeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0181AC3F1DAE82BD0032DD90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0181AC281DAE82BD0032DD90 /* Auto Layout IBS Reading Practice */;
+			targetProxy = 0181AC3E1DAE82BD0032DD90 /* PBXContainerItemProxy */;
+		};
+		0181AC4A1DAE82BD0032DD90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0181AC281DAE82BD0032DD90 /* Auto Layout IBS Reading Practice */;
+			targetProxy = 0181AC491DAE82BD0032DD90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0181AC301DAE82BD0032DD90 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0181AC311DAE82BD0032DD90 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0181AC351DAE82BD0032DD90 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0181AC361DAE82BD0032DD90 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0181AC4F1DAE82BD0032DD90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0181AC501DAE82BD0032DD90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0181AC521DAE82BD0032DD90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Auto Layout IBS Reading Practice/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Flatiron-School.Auto-Layout-IBS-Reading-Practice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0181AC531DAE82BD0032DD90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Auto Layout IBS Reading Practice/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Flatiron-School.Auto-Layout-IBS-Reading-Practice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0181AC551DAE82BD0032DD90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Auto Layout IBS Reading PracticeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Flatiron-School.Auto-Layout-IBS-Reading-PracticeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Auto Layout IBS Reading Practice.app/Auto Layout IBS Reading Practice";
+			};
+			name = Debug;
+		};
+		0181AC561DAE82BD0032DD90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Auto Layout IBS Reading PracticeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Flatiron-School.Auto-Layout-IBS-Reading-PracticeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Auto Layout IBS Reading Practice.app/Auto Layout IBS Reading Practice";
+			};
+			name = Release;
+		};
+		0181AC581DAE82BD0032DD90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Auto Layout IBS Reading PracticeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Flatiron-School.Auto-Layout-IBS-Reading-PracticeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Auto Layout IBS Reading Practice";
+			};
+			name = Debug;
+		};
+		0181AC591DAE82BD0032DD90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Auto Layout IBS Reading PracticeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Flatiron-School.Auto-Layout-IBS-Reading-PracticeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Auto Layout IBS Reading Practice";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0181AC241DAE82BD0032DD90 /* Build configuration list for PBXProject "Auto Layout IBS Reading Practice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0181AC4F1DAE82BD0032DD90 /* Debug */,
+				0181AC501DAE82BD0032DD90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0181AC511DAE82BD0032DD90 /* Build configuration list for PBXNativeTarget "Auto Layout IBS Reading Practice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0181AC521DAE82BD0032DD90 /* Debug */,
+				0181AC531DAE82BD0032DD90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0181AC541DAE82BD0032DD90 /* Build configuration list for PBXNativeTarget "Auto Layout IBS Reading PracticeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0181AC551DAE82BD0032DD90 /* Debug */,
+				0181AC561DAE82BD0032DD90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0181AC571DAE82BD0032DD90 /* Build configuration list for PBXNativeTarget "Auto Layout IBS Reading PracticeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0181AC581DAE82BD0032DD90 /* Debug */,
+				0181AC591DAE82BD0032DD90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0181AC211DAE82BD0032DD90 /* Project object */;
+}
